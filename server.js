@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.argv[2] || 3300
+const port = process.argv[2] || 3000
 // do the port thing
 
 const www = express.static(`${__dirname}/www`)
