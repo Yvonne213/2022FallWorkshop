@@ -7,5 +7,5 @@ const www = express.static(`${__dirname}/www`)
 app.use(www)
 
 app.listen(port, () => {
-    console.log(`running the server on port 13! visit http://locoalhost:${port}`)
+    console.log(`running the server on port 13! visit http://localhost:${port}`)
 })
